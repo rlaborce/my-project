@@ -3,6 +3,12 @@
 @font-face { font-family: ChunkFive; src: url("Chunkfive.otf"); }
 @font-face { font-family: Asap-Regular; src: url("Asap-Regular.otf"); }
 
+@media only screen  and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+.jumbotron, #story, #experience, #languages, #education, #contact {
+	background-attachment: fixed; 
+	}
+}
+
 html, body, h1 {
     margin: 0;
     padding: 0;
@@ -21,7 +27,7 @@ p {
 	top: 0px;
 	left: 0px;
 	height: 100vh;
-	background: no-repeat center right url("https://cloud.githubusercontent.com/assets/15614624/11053089/ffd95500-872b-11e5-8c1a-5f967c8fb1a8.JPG");
+	background: no-repeat center right fixed url("https://cloud.githubusercontent.com/assets/15614624/11053089/ffd95500-872b-11e5-8c1a-5f967c8fb1a8.JPG");
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
@@ -99,7 +105,7 @@ a:hover {
 }
 
 #story {
-	background: no-repeat center right url("https://cloud.githubusercontent.com/assets/15614624/11053162/a97c4a36-872c-11e5-985e-b503ba838850.JPG");
+	background: no-repeat center right fixed url("https://cloud.githubusercontent.com/assets/15614624/11053162/a97c4a36-872c-11e5-985e-b503ba838850.JPG");
 	padding-left: 50px;
 	padding-top: 50px;
 	-webkit-background-size: 100%; 
@@ -121,7 +127,7 @@ img {
 	width: 20vmin;
 }
 #experience {
-	background: no-repeat center right url("https://cloud.githubusercontent.com/assets/15614624/11053206/1a8d279a-872d-11e5-9926-5537432abf8e.JPG");
+	background: no-repeat center right fixed url("https://cloud.githubusercontent.com/assets/15614624/11053206/1a8d279a-872d-11e5-9926-5537432abf8e.JPG");
 	padding-left: 50px;
 	padding-top: 50px;
 	-webkit-background-size: 100%; 
@@ -144,7 +150,7 @@ td {
 }
 	
 #languages {
-	background: no-repeat center right url("https://cloud.githubusercontent.com/assets/15614624/11053162/a97c4a36-872c-11e5-985e-b503ba838850.JPG");
+	background: no-repeat center right fixed url("https://cloud.githubusercontent.com/assets/15614624/11053162/a97c4a36-872c-11e5-985e-b503ba838850.JPG");
 	padding-left: 50px;
 	padding-top: 50px;
 	-webkit-background-size: 100%; 
@@ -166,7 +172,7 @@ td {
 	display: inline-block;
 }
 #education {
-	background: no-repeat center right url("https://cloud.githubusercontent.com/assets/15614624/11053206/1a8d279a-872d-11e5-9926-5537432abf8e.JPG");
+	background: no-repeat center right fixed url("https://cloud.githubusercontent.com/assets/15614624/11053206/1a8d279a-872d-11e5-9926-5537432abf8e.JPG");
 	padding-left: 50px;
 	padding-top: 50px;
 	height: 100vh;
@@ -185,7 +191,7 @@ td {
 	}
 	
 #contact {
-	background: no-repeat center right url("https://cloud.githubusercontent.com/assets/15614624/11053242/646207d2-872d-11e5-84cd-4b12cc602948.JPG");
+	background: no-repeat center right fixed url("https://cloud.githubusercontent.com/assets/15614624/11053242/646207d2-872d-11e5-84cd-4b12cc602948.JPG");
 	padding-left: 50px;
 	padding-top: 300px;
 	height: 70vh;
