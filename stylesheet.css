@@ -8,10 +8,11 @@ html, body, h1 {
 }
 h1 {
 	letter-spacing: 2px;
-	font-size: 50px;
+	font-size: 6.25vmin;
 	}
 p {
 	font-family: Asap-Regular;
+	font-size: 2vmin;
 }
 
 .jumbotron {
@@ -39,14 +40,14 @@ p {
 	font-weight: bold;
 	text-align: center;
 	color:white;
-	font-size: 55px;
+	font-size: 6.875vmin;
 	border: 5px solid white;
-	height:75px;
-	width: 75px;
+	height:9.375vmin;
+	width: 9.375vmin;
 	margin:0;
 	position:fixed;
 	bottom: 0px;
-	right: 62.5px;
+	right: 7.8125vmin;
 	z-index: 9999;
 	cursor:pointer;
 }
@@ -62,7 +63,7 @@ p {
 	text-align:left;
 	width: 100px;
 	margin:0;
-    padding-right:50px;
+    padding-right:6.25vmin;
 	list-style: none;
 	top: 300px;
 	right: 0px;
@@ -74,6 +75,7 @@ p {
 	text-align: center;
 }
 #nav a {
+	font-size: 2vmin;
 	font-family: ChunkFive;
 	text-decoration:none;
 	color: white;
@@ -113,13 +115,13 @@ a:hover {
 	font-family: ChunkFive;
 	}
 
-#story p {
-	width: 1000px;
-}
+/*#story p {
+	width: 125vmin;
+}*/
 
 img {
-	height: 250px;
-	width: 250px;
+	height: 20vmin;
+	width: 20vmin;
 }
 #experience {
 	background: no-repeat center right fixed url("https://cloud.githubusercontent.com/assets/15614624/11053206/1a8d279a-872d-11e5-9926-5537432abf8e.JPG");
@@ -166,7 +168,7 @@ vertical-align: top;
 	}
 
 #languages ul li{
-	font-size: 80px;
+	font-size: 10vmin;
 	display: inline-block;
 }
 #education {
@@ -188,9 +190,9 @@ vertical-align: top;
 	font-family: ChunkFive;
 	}
 
-#activities {
-	width: 1000px;
-}
+/*#activities {
+	width: 125vmin;
+}*/
 	
 #contact {
 	background: no-repeat center right fixed url("https://cloud.githubusercontent.com/assets/15614624/11053242/646207d2-872d-11e5-84cd-4b12cc602948.JPG");
@@ -220,6 +222,6 @@ vertical-align: top;
 }
 	
 #contact img{
-	width: 50px;
-	height: 50px;
+	width: 6.25vmin;
+	height: 6.25vmin;
 }
