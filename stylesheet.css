@@ -1,3 +1,5 @@
+/*All background images were taken and are owned by me*/
+
 @font-face { font-family: ChunkFive; src: url("Chunkfive.otf"); }
 @font-face { font-family: Asap-Regular; src: url("Asap-Regular.otf"); }
 
@@ -115,10 +117,6 @@ a:hover {
 	font-family: ChunkFive;
 	}
 
-/*#story p {
-	width: 125vmin;
-}*/
-
 img {
 	height: 20vmin;
 	width: 20vmin;
@@ -140,13 +138,12 @@ img {
 }
 #experience h1{
 	font-family: ChunkFive;
-	}
+}
 
 td {  
-/*border: 2px solid white;*/
-vertical-align: top;
-  text-align: left;}
-  
+	vertical-align: top;
+	text-align: left;
+}
 	
 #languages {
 	background: no-repeat center right fixed url("https://cloud.githubusercontent.com/assets/15614624/11053162/a97c4a36-872c-11e5-985e-b503ba838850.JPG");
@@ -189,10 +186,6 @@ vertical-align: top;
 #education h1{
 	font-family: ChunkFive;
 	}
-
-/*#activities {
-	width: 125vmin;
-}*/
 	
 #contact {
 	background: no-repeat center right fixed url("https://cloud.githubusercontent.com/assets/15614624/11053242/646207d2-872d-11e5-84cd-4b12cc602948.JPG");
