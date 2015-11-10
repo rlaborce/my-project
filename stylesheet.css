@@ -1,0 +1,225 @@
+@font-face { font-family: ChunkFive; src: url("Chunkfive.otf"); }
+@font-face { font-family: Asap-Regular; src: url("Asap-Regular.otf"); }
+
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+	color: white;
+}
+h1 {
+	letter-spacing: 2px;
+	font-size: 50px;
+	}
+p {
+	font-family: Asap-Regular;
+}
+
+.jumbotron {
+	top: 0px;
+	left: 0px;
+	height: 100vh;
+	background: no-repeat center right fixed url("mainbackground.jpg");
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container {
+	font-family: ChunkFive;
+	padding-left: 50px;
+	padding-top: 300px;
+}
+/*Page Down Cursor*/
+.go-down{
+	font-weight: bold;
+	text-align: center;
+	color:white;
+	font-size: 55px;
+	border: 5px solid white;
+	height:75px;
+	width: 75px;
+	margin:0;
+	position:fixed;
+	bottom: 0px;
+	right: 62.5px;
+	z-index: 9999;
+	cursor:pointer;
+}
+
+.go-down:hover{
+	color:#809AB5;
+	cursor:pointer;
+}
+
+#nav {
+	display: none;
+	position: fixed;
+	text-align:left;
+	width: 100px;
+	margin:0;
+    padding-right:50px;
+	list-style: none;
+	top: 300px;
+	right: 0px;
+	z-index: 9999;
+	cursor:pointer;
+}
+
+#nav .li {
+	text-align: center;
+}
+#nav a {
+	font-family: ChunkFive;
+	text-decoration:none;
+	color: white;
+	letter-spacing: 1px;
+}
+#nav a:hover {
+	color: #809AB5;
+}
+#nav .active a {
+	color: black;
+}
+a {
+	font-weight: bold;
+	text-decoration:none;
+	color: white;
+}
+a:hover {
+	color: #809AB5;
+}
+
+#story {
+	background: no-repeat center right fixed url("background_01.jpg");
+	padding-left: 50px;
+	padding-top: 50px;
+	height: 100vh;
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color:#C4C8D1;
+}
+#story h1{
+	font-family: ChunkFive;
+	}
+
+#story p {
+	width: 1000px;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+#experience {
+	background: no-repeat center right fixed url("background_02.jpg");
+	padding-left: 50px;
+	padding-top: 50px;
+	height: 100vh;
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #475055;
+}
+#experience h1{
+	font-family: ChunkFive;
+	}
+
+td {  
+/*border: 2px solid white;*/
+vertical-align: top;
+  text-align: left;}
+  
+	
+#languages {
+	background: no-repeat center right fixed url("background_01.jpg");
+	padding-left: 50px;
+	padding-top: 50px;
+	height: 100vh;
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color:#C4C8D1;
+}
+#languages h1{
+	font-family: ChunkFive;
+	}
+
+#languages ul li{
+	font-size: 80px;
+	display: inline-block;
+}
+#education {
+	background: no-repeat center right fixed url("background_02.jpg");
+	padding-left: 50px;
+	padding-top: 50px;
+	height: 100vh;
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color:#475055;
+}
+#education h1{
+	font-family: ChunkFive;
+	}
+
+#activities {
+	width: 1000px;
+}
+	
+#contact {
+	background: no-repeat center right fixed url("background_05.jpg");
+	padding-left: 50px;
+	padding-top: 300px;
+	height: 70vh;
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #C4C8D1;
+}
+#contact h1{
+	font-family: ChunkFive;
+	}
+
+#contact ul li {
+	display: inline;
+}
+
+#contact ul {
+	padding-top: 50px;
+}
+	
+#contact img{
+	width: 50px;
+	height: 50px;
+}
